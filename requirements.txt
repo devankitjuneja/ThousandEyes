@@ -1,0 +1,2 @@
+dlt[mssql]>=0.3.22
+loguru==0.7.2
