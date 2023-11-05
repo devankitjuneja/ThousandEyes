@@ -37,6 +37,7 @@ def thousand_eyes_resource(api_secret_key=dlt.secrets.value, window=None):
                 row['test_id'] = test_id
                 row['test_name'] = test_name
                 row['ts_created'] = timestamp
+                row['type'] = test['type']
 
                 http_server.append(row)
 
